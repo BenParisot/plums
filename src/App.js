@@ -1,13 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import stanzas from './stanzas';
+import Stanza from './Stanza';
+
 
 function App() {
   return (
     <div className="App">
-      <main>
-        <h1>This is just to say.</h1>
-      </main>
+      {stanzas.map((stanza, i) => (
+      <Stanza key={i}>
+        <div className="stanza">
+          <span>{stanza}</span>
+        </div>
+      </Stanza>
+      ))}
     </div>
   );
 }
