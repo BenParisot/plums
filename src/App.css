@@ -2,9 +2,13 @@
   text-align: center;
 }
 
+.title {
+  font-size: 72px;
+  height: 100vh;
+}
+
 .stanza {
-  height: 600px;
-  margin-top: 200px;
+  height: 100vh;
 }
 
 .fade-in-section {
