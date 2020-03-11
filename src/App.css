@@ -5,11 +5,17 @@
 .title {
   font-size: 72px;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stanza {
   height: 100vh;
   font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fade-in-section {
@@ -24,4 +30,5 @@
   opacity: 1;
   transform: none;
   visibility: visible;
+  background-color: lightcoral;
 }
